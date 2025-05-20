@@ -236,26 +236,15 @@ See inline comments in each file for detailed explanations.
 
 ## Challenges & Solutions
 
-
-
 | Challenge                                                         | Solution                                                                      |
-
 |-------------------------------------------------------------------|-------------------------------------------------------------------------------|
-
 | Weak/custom-printed bracket parts                                 | Iterated SolidWorks design; added stiffening ribs                             |
-
 | Face detection jitter & servo twitching                           | Introduced a **5° dead-band** around center; clamped servo angles            |
-
 | LiDAR serial packet alignment                                     | Poll for complete 9-byte frames before parsing                                |
-
 | Differential PWM steering proved jerky on 4WD chassis             | Switched to **discrete Motor patterns** (forward, backward, turn in place)    |
-
 | Camera initialization errors in Thonny                            | Unified PiCamera2 init once; avoided repeated `__init__` calls                |
 
-
-
 ---
-
 
 
 ## Conclusion & Future Work
