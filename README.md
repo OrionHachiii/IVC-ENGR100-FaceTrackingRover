@@ -36,6 +36,7 @@ _Assembled by Cole M., Zaid A., Zesen L., and Davoud Ghassemiyeh_
 
 9. [Conclusion & Future Work](#conclusion--future-work)  
 
+10. [Demo Videos](#demo-videos)
 
 
 ---
@@ -256,6 +257,19 @@ See inline comments in each file for detailed explanations.
 - **Lessons**: modular design, clear flowchart → pseudocode → iterative tuning.  
 
 - **Next steps**: upgrade to DNN-based face recognition for robustness, improve bracket materials, integrate obstacle avoidance back into the tracking loop.
+
+
+
+---
+
+
+
+## Demo Videos
+
+
+
+- **Live Demo 1**: [IVC ENGR 100 Team 3 | Face-Following Rover Live Demo 1](https://youtube.com/shorts/JToTrOTbqbI?feature=share)  
+- **Live Demo 2**: [IVC ENGR 100 Team 3 | Face-Following Rover Live Demo 2](https://youtu.be/TYwNfeY9g4M)  
 
 
 
