@@ -59,7 +59,7 @@ Our four-wheel rover is designed to **detect and follow human faces**—“threa
 
 
 
-This project demonstrates how to integrate hardware, mechanical design, and control software into a cohesive, autonomous system.
+This project demonstrates integrating hardware, mechanical design, and control software into a cohesive, autonomous system.
 
 
 
@@ -70,18 +70,17 @@ This project demonstrates how to integrate hardware, mechanical design, and cont
 ## Team Members & Professor
 
 
+- **Professor Zahra Noroozi** — IVC IDEA Department Chair, Integrated Design, Automation & Engineering
+  
+- [**Cole M.**](https://github.com/CGeipel) — Mechanical design, hardware testing
+- 
+- [**Zaid A.**](https://github.com/HeadHoncho21) — Component selection & integration
+- 
+- [**Zesen L.**](https://github.com/OrionHachiii) — Flowchart & code implementation
+- 
+- **Davoud G.** — SolidWorks bracket design & key features  
 
-- **Professor Zahra Noroozi** —IDEA Department Chair, Integrated Design, Automation & Engineering  
-
-- **Cole M.** —Mechanical design & challenges  
-
-- **Zaid A.** —Component selection & integration  
-
-- **Zesen L.** —Flowchart & code implementation  
-
-- **Davoud G.** —SolidWorks bracket design & key features  
-
-
+> Note: While roles were divided for clarity, all team members collaborated across all project stages, including hardware setup, coding, testing, and presentation.
 
 ---
 
@@ -185,17 +184,19 @@ This project demonstrates how to integrate hardware, mechanical design, and cont
 
        - **Too far**  → forward  
 
-       - **Just right** → if camera angle > center+tol → turn right  
+       - **Just right**:
+        - if camera angle > center + tolerance → turn right
+          
+        - if camera angle < center − tolerance → turn left
+          
+        - else → go forward
 
-                         if angle < center−tol → turn left  
-
-                         else → forward  
 
 4. **Cleanup on Ctrl+C**  
 
 
 
-A full flowchart diagram is provided in `docs/flowchart.png`.
+A full flowchart diagram is provided in `Team 3 Final Presentation.pdf`.
 
 
 
