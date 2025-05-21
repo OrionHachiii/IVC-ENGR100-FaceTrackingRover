@@ -279,7 +279,7 @@ See inline comments in each file for detailed explanations.
 
 
 
-## 11. License
+## License
 
 This project is licensed under the **MIT License**.  
 You are free to use, modify, and distribute the code with proper attribution.  
@@ -290,7 +290,7 @@ See the [LICENSE](./LICENSE) file for full terms.
 
 ---
 
-## 12. Acknowledgements
+## Acknowledgements
 
 We would like to thank:
 
