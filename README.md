@@ -38,6 +38,9 @@ _Assembled by Cole M., Zaid A., Zesen L., and Davoud Ghassemiyeh_
 
 10. [Demo Videos](#demo-videos)
 
+11. [License](#license)
+    
+12. [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -76,7 +79,7 @@ This project demonstrates integrating hardware, mechanical design, and control s
   
 - [**Zaid A.**](https://github.com/HeadHoncho21) — Component selection & integration
   
-- [**Zesen L.**](https://github.com/OrionHachiii) — Flowchart & code implementation
+- [**Zesen L.**](https://github.com/OrionHachiii) — Flowchart & code implementation, GitHub repo management
   
 - **Davoud G.** — SolidWorks bracket design & key features  
 
@@ -179,18 +182,15 @@ This project demonstrates integrating hardware, mechanical design, and control s
 
      - Measure LiDAR distance  
 
-     - **Decision**:  
-
+     - **Decision**:
+    
        - **Too close** → backward  
-
-       - **Too far**  → forward  
-
+       - **Too far** → forward  
        - **Just right**:
-        - if camera angle > center + tolerance → turn right
-          
-        - if camera angle < center − tolerance → turn left
-          
-        - else → go forward
+         - if camera angle > center + tolerance → turn right  
+         - if camera angle < center − tolerance → turn left  
+         - else → go forward
+
 
 
 4. **Cleanup on Ctrl+C**  
@@ -279,8 +279,32 @@ See inline comments in each file for detailed explanations.
 
 
 
-**Thank you for exploring our final project!**  
+## 11. License
 
-This repository contains our team’s original Python code, presentation slides, and demonstration video. The OpenCV Haar Cascade files (haar/*.xml) are from the official OpenCV project and are licensed under the BSD license. All hardware selection and driver code were designed and implemented by our team under the guidance of Professor Zahra Noroozi.
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute the code with proper attribution.  
+See the [LICENSE](./LICENSE) file for full terms.
+
+> The file `haarcascade_frontalface_default.xml` used for face detection was obtained from the official [OpenCV project](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml)  
+> and is licensed under the **BSD license**.
+
+---
+
+## 12. Acknowledgements
+
+We would like to thank:
+
+- **Professor Zahra Noroozi**, for her continued support and academic guidance throughout the course.  
+- The **OpenCV team**, for providing powerful and accessible computer vision tools.  
+- Our IVC ENGR 100 classmates, lab staff, and reviewers.  
+- And each other—as a team—for collaborating across all stages of development.
+
+This project was developed as part of the Spring 2025 offering of **IVC ENGR 100**,  
+and reflects our collective effort in integrating Raspberry Pi hardware, Python code, servo control, and LiDAR sensing into a fully functional face-following rover.
+
+---
+
+
+**Thank you for exploring our final project!**
 
 Feel free to open issues or pull requests for improvements.
