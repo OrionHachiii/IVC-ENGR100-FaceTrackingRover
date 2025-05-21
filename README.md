@@ -73,12 +73,13 @@ This project demonstrates integrating hardware, mechanical design, and control s
 - **Professor Zahra Noroozi** — IVC IDEA Department Chair, Integrated Design, Automation & Engineering
   
 - [**Cole M.**](https://github.com/CGeipel) — Mechanical design, hardware testing
-- 
+  
 - [**Zaid A.**](https://github.com/HeadHoncho21) — Component selection & integration
-- 
+  
 - [**Zesen L.**](https://github.com/OrionHachiii) — Flowchart & code implementation
-- 
+  
 - **Davoud G.** — SolidWorks bracket design & key features  
+
 
 > Note: While roles were divided for clarity, all team members collaborated across all project stages, including hardware setup, coding, testing, and presentation.
 
